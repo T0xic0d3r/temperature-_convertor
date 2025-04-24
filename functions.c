@@ -23,3 +23,17 @@ void kelvinToCelsius(float k) {
 void kelvinToFahrenheit(float k) {
     printf("Fahrenheit: %.2f\n", ((k - 273.15) * 9 / 5) + 32);
 }
+
+int main() {
+    int choice;
+    float temp;
+
+    printf("Temperature Converter\n");
+    printf("1. Celsius to Fahrenheit\n");
+    printf("2. Celsius to Kelvin\n");
+    printf("3. Fahrenheit to Celsius\n");
+    printf("4. Fahrenheit to Kelvin\n");
+    printf("5. Kelvin to Celsius\n");
+    printf("6. Kelvin to Fahrenheit\n");
+    printf("Enter your choice: ");
+    scanf("%d", &choice)
