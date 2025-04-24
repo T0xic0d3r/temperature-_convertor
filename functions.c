@@ -5,6 +5,7 @@ void celsiusToFahrenheit(float c) {
 }
 
 void celsiusToKelvin(float c) {
+    
     printf("Kelvin: %.2f\n", c + 273.15);
 }
 
@@ -44,3 +45,11 @@ printf("Enter temperature: ");
         case 1: celsiusToFahrenheit(temp); break;
         case 2: celsiusToKelvin(temp); break;
         case 3: fahrenheitToCelsius(temp); break;
+    case 4: fahrenheitToKelvin(temp); break;
+        case 5: kelvinToCelsius(temp); break;
+        case 6: kelvinToFahrenheit(temp); break;
+        default: printf("Invalid choice\n");
+    }
+
+    return 0;
+}
